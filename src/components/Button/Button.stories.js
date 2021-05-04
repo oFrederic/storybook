@@ -9,6 +9,10 @@ export default {
   // args: {
   //   children: 'Button',
   // },
+  // argTypes: {
+  //   variant: { control: 'text' },
+  //   onClick: { action: 'clicked' },
+  // },
 };
 
 export const Primary = () => <Button variant="primary">Primary</Button>;
